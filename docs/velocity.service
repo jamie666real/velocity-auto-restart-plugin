@@ -1,0 +1,16 @@
+[Unit]
+Description=Velocity Proxy
+After=network.target
+
+[Service]
+User=mc
+WorkingDirectory=/opt/velocity
+ExecStart=/usr/bin/java -Xms512M -Xmx2G -jar proxy.jar
+Restart=always
+RestartSec=5
+# Optional: ensure logs end up in journal
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
