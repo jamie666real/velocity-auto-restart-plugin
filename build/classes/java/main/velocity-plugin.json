@@ -1,0 +1,1 @@
+{"id":"autorestart","name":"AutoRestart","version":"1.0","description":"Auto-restarts proxy at configured time with advanced warnings","authors":[],"dependencies":[],"main":"com.example.autorestart.AutoRestartPlugin"}
