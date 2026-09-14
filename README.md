@@ -26,4 +26,4 @@ Restart behavior:
   - Or set `restartCommand` and `runCommandBeforeShutdown=true` so the plugin attempts to run a script that re-launches the proxy (the script must start the proxy detached).
 
 Notes:
-- "CST" can be ambiguous. This plugin defaults to ZoneId `America/Chicago`. Change `timezone` in config.properties if you meant another CST.
+- This plugin defaults to `America/Chicago`. Change `timezone` in config.properties if you meant another timezone.
